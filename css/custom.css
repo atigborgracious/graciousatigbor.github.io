@@ -418,3 +418,28 @@ section.our-gallery p {
     line-height: 27px;
 	padding:0 0 50px;	
 }
+
+
+@media only screen and (max-width: 500px){
+    
+    .parallex1{
+    background: url("../images/para22.jpg") no-repeat;
+    background-size: cover;
+}
+
+.parallex2{
+    background: url("../images/para11.jpg") no-repeat ;
+    background-size: cover;
+}
+
+.parallex3{
+    background: url("../images/para33.jpg") no-repeat;
+    background-size: cover;
+}
+
+.parallex4{
+    background: url("../images/para44.jpg") no-repeat f;
+    background-size: cover;
+}
+    
+}
