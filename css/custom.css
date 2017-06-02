@@ -191,7 +191,7 @@ font-family: Century Gothic;
 .collapse > ul > li > a:hover {
     
     color: white;
-	background-color: aliceblue; 
+	background-color: red; 
 }
 .navbar-toggle > ul > li > a {
     padding-top:60px;
@@ -201,7 +201,7 @@ font-family: Century Gothic;
 .navbar-right > ul > li > a:hover {
    
     color: white;
-	 background-color: aliceblue;
+	 background-color: red;
 }
 
 .bg-image {
@@ -332,7 +332,7 @@ float:right;
 	color:#CCB76C;
 }  
 ul .hm:hover{text-align:center;
-background-color: aliceblue;
+border: 3px solid white;
 color: #3a79d7;
 
 }
