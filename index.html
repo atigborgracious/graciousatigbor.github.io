@@ -1,511 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Portfolio</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-----Gallery-----> 
-   <link href="css/cobox.css" rel="stylesheet" type="text/css" media="all"/>
-     <!-----EndOfGallery----->
-    <link href="css/aos.css" rel="stylesheet" type="text/css" media="all" />
-</head>
-
-<body>
- 
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-warning btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">My Resume
-            </li>
-            <li><a href="#top">Home</a>
-            </li>
-            <li><a href="#about">About</a>
-            </li>
-            <li><a href="#skills">Skills</a>
-            </li>
-            <li><a href="#education">Education</a>
-            </li>
-            <li><a href="#portfolio">Portfolio</a>
-            </li>
-            <li><a href="#hobbies">Hobbies</a>
-            </li>
-            <li><a href="#footerwrap">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /Side Menu -->
-
-    <!-- Full Page Image Header Area -->
-	
-	
-    <div id="top" class="header">
-	
-        <div class="container">
-           <section class="row">
-                  <section class="col-xs-4 joh">
- 
-         <p class="">
-            
-    <img src ="img/name.png" class ="img-responsive center-block animated " data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="1000"/>
-              
-   </p>
-        
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MyPortfolio</title>
+    <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="css/custome.css" rel="stylesheet">
+	  <link href="css/aos.css" rel="stylesheet" type="text/css" media="all" />  
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+        <nav class="menu-opener">
+    <div class="menu-opener-inner"></div>
+  </nav>
+  <nav class="menu">
+    <ul class="menu-inner">
+      <a href="index.html" class="menu-link">
+        <li>home</li>
+      </a>
+      <a href="about.html" class="menu-link">
+        <li>bio</li>
+      </a>
+      <a href="education.html" class="menu-link">
+        <li>education</li>
+      </a>
+      <a href="skills.html" class="menu-link">
+        <li>skills</li>
+      </a>
+         <a href="portfolio.html" class="menu-link">
+        <li>portfolio</li>
+      </a>
+         <a href="clients.html" class="menu-link">
+        <li>clients</li>
+      </a>
+         <a href="hobbies.html" class="menu-link">
+        <li>hobbies</li>
+      </a>
+      <a href="contact.html" class="menu-link">
+        <li>contact</li>
+      </a>
+    </ul>
+  </nav>
+      
+      
+    <div id="main_container">  
+     <div class="container-fluid">
          
-         <p class="titlee">
-  
-             <img src="new2.svg" class="img-responsive center-block animated wow rollIn" data-wow-delay=".9s"/>
+         
+         
+           <section class="row">
+          <section class="col-md-2 mx-auto text-center">
+               <p class="title_colum">
+    <img class = "img-fluid "  src ="img/side.png" />
               </p>
-        
-    </section>  
-      <section class="col-xs-8">
-          
-    <img src ="img/me.png" class ="img-responsive center-block  animated wow fadeIn" data-wow-delay=".9s" style=" padding-top:15%;"/>
-              
-    </section> 
-      <!--section class="col-xs-2" style="float: right;">
-     <img src ="img/sidebar.png" class ="img-responsive " style="float:right;"/>
-    </section--> 
-               
+               </section>
+      <section class="col-md-10 col-sm-12 mx-auto text-center">
+          <div class="me">
+              <p>
+    <img class = "img-fluid mx-auto text-center"  src ="img/me.png"  data-aos="fade-in" data-aos-easing="linear" data-aos-duration="2000"/>
+              </p>
+      </div>          
+     </section> 
+                
             </section>
         </div>
     </div>
-    <!-- /Full Page Image Header Area -->
-
-    <!-- Intro -->
-    <div id="about" class="intro">
-        <div class="container"> 
-            <div class="row" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
-            <img src ="img/bio.png"  class="img-responsive center-block" />
-            </div>
-            
-            <section class="row" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="800">
-    <img src ="img/quote.png" class="img-responsive center-block animated wow zoomIn " data-wow-delay=".9s" />
-    </section>
-
-<div class="row  myself2 " >
-   
-    <section class="col-sm-offset-2 col-sm-8 col-sm-offset-2 "  >
-        
-      <p data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700">
-Am Gracious J.K Atigbor, born on September 07, 1991 in Ho, Ghana West/Africa.
-Studied Bachelor in Computer Applications in Bangalore, India.
-Passionate about Web Design, love to play drums, soccer, listen to music and travel.
-Currently living and freelancing in Bangalore, India for 3 years.
-Looking forward to work in a purpose driven environment to achieve exciting results.
-   </p>
-     <img src="img/prof.png" class="img-responsive center-block" data-aos="fade-in"data-aos-easing="linear" data-aos-duration="1000" >    
-       
-    </section>
-    
-</div>
-            
-        </div>
-    </div>
-    <!-- /Intro -->
-
-    <!-- About&Skills -->
-    <div id="skills" class="skills">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
-                  <img src ="img/skills.png" class="img-responsive center-block "  />
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/tech.png" class="img-responsive center-block "/>
-            </div>
-            
-            <div class="row">
-    <section class="col-sm-1">
       
-    </section>
-    <section class="col-sm-2">
-      <img src="img/boot.png" class="img-responsive center-block "  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="1000" />
-    </section>
-    <section class="col-sm-2">
-      <img src="img/html.png" class="img-responsive center-block "  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="800"/>
-    </section>
-    <section class="col-sm-2">
-      <img src="img/css.png" class="img-responsive center-block "  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="600" />
-    </section>
-    <section class="col-sm-2">
-      <img src="img/js.png" class="img-responsive center-block "  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="400"/>
-    </section>
-    <section class="col-sm-2">
-      <img src="img/android.png" class="img-responsive center-block animated wow zoomIn"  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="200"/>
-    </section>
-   <section class="col-sm-1">
-      
-    </section>
-    
-    </div>
-            
-    <div class="row">
-    <img src="img/soft.png" class="img-responsive center-block animated wow zoomIn" data-wow-delay=".7s"/>
-    </div>
-    
-    <div class="row" style="margin-bottom:5%;">
-    <section class="col-sm-1">
-     
-    </section>
-    <section class="col-sm-2" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000">
-      <img src="img/brackets.png" class="img-responsive center-block animated wow rollIn" data-wow-delay=".9s"/>
-    </section>
-    <section class="col-sm-2" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="800">
-      <img src="img/photoshop.png" class="img-responsive center-block animated wow rollIn" data-wow-delay=".8s"/>
-    </section>
-    
-    
-    <section class="col-sm-2" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="600">
-      <img src="img/muse.png" class="img-responsive center-block animated wow rollIn" data-wow-delay=".7s"/>
-    </section>
-    <section class="col-sm-2" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="400">
-      <img src="img/animate.png" class="img-responsive center-block animated wow rollIn" data-wow-delay=".6s"/>
-    </section>
-    <section class="col-sm-2" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="200">
-      <img src="img/androids.png" class="img-responsive center-block animated wow rollIn" data-wow-delay=".5s"/>
-    </section>
-    <section class="col-sm-1">
-     
-    </section>
-    
-    </div>        
-            
-        </div>
-         </div>
-    <!-- /About&Skills -->
-        
-    
-    <!-- Callout -->
-    <div class="callout">
-        
-    </div>
-    <!-- /Callout -->
-    
-          <!-- Education -->
-    <div id="education" class="education">
-        <div class="container">
-            
-            <div class="row" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
-            <img src ="img/edu.png"  class="img-responsive center-block" />
-            </div>
-            <div class="row " >
-   
-    <section class="col-sm-3 "  style="padding-bottom:40px;">
-     <img src="img/cert1.png" class="img-responsive center-block"  data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000">
-    </section>
-    
-      <section class="col-sm-3 " >
-     <img src="img/cert2.png" class="img-responsive center-block"  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="900">
-    </section>
-    
-      <section class="col-sm-3 " >
-     <img src="img/cert3.png" class="img-responsive center-block" style="margin-bottom:5%;"  data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="800">
-    </section>
-    
-    <section class="col-sm-3 " >
-     <img src="img/cert4.png" class="img-responsive center-block" style="margin-bottom:5%;"  data-aos="fade-up"
-     data-aos-easing="linear"
-     data-aos-duration="700">
-    </section>
-    
-    
-</div>
-            
-        </div>
-    </div>
-    <!-- /Education -->
-    
-
-
-    <!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
       <div class="container">
-         <div class="row" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
-            <img src ="img/port.png" class="img-responsive center-block"/>
-          </div>
+           <section class="row">
+                  <section class="col-md-4 mx-auto text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1100"> <a href="about.html">
+                      <img src ="img/newabout.png"  class="img-fluid " /> </a>        
+               </section>
+                 <section class="col-md-4 mx-auto text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1400"> <a href="education.html">
+                     <img src ="img/newedu.png"  class="img-fluid " />   </a>      
+               </section>
+                 <section class="col-md-4 mx-auto text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1600"> <a href="skills.html">
+                     <img src ="img/newskills.png"  class="img-fluid " />       </a>  
+               </section>
+          </section>
           
-          
-          <div class="row " style="padding:2%;">
-              <section class="col-sm-12">
-             <ul class="portfolio-filter">
-            <li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
-            <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Websites</a></li>
-            <li><a class="btn btn-default" href="#" data-filter=".html">Graphics</a></li>
-        </ul><!--/#portfolio-filter-->
+           <section class="row">
+                  <section class="col-md-4 mx-auto text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1700" >
+                      <a href="portfolio.html">
+                          <img src ="img/newport.png"  class="img-fluid " /> </a>        
+               </section>
+                 <section class="col-md-4 mx-auto text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1800"><a href="hobbies.html">
+                     <img src ="img/newhob.png"  class="img-fluid " />  </a>       
+               </section>
+                 <section class="col-md-4 mx-auto text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"><a href="contact.html">
+                     <img src ="img/newcont.png"  class="img-fluid " />  </a>       
+               </section>
+          </section>
+      </div>
+      
+      
+     <!--div id="sf">
+       <div class="container">
+           <section class="row">
+                  <section class="col-sm-4 mx-auto text-center bio_wrapper">
+                    <img src ="img/myself.png"  class="img-fluid iconz" style="padding-top:2%;"/>  
+                  <img src ="img/mybio.png"  class="img-fluid iconz2" />      
+               </section>
+               
+                <section class="col-sm-4  mx-auto text-center  education_wrapper">
+                     <img src ="img/myeducation.png" class="img-fluid iconz" style="padding-top:2%;"/> 
+                <img src ="img/edu2.png"  class="img-fluid iconz2"  />      
+               </section>
+               
+              <section class="col-sm-4  mx-auto text-center skills_wrapper">
+                    <img src ="img/myskills.png"  class="img-fluid iconz" style="padding-top:2%;"/>  
+                   <img src ="img/skills2.png" class="img-fluid iconz2" />
+               </section>
+           </section>
+           
+           
+           <section class="row" style="margin-top: 1px;">
+                  <section class="col-sm-4 mx-auto text-center port_wrapper">
+                    <img src ="img/myport.png"  class="img-fluid iconz" style="padding-top:2%;"/>  
+                  <img src ="img/port2.png"  class="img-fluid  iconz2" />      
+               </section>
+               
+                <section class="col-sm-4  mx-auto text-center  hob_wrapper">
+                     <img src ="img/myhob.png" class="img-fluid iconz" style="padding-top:2%;"/> 
+                <img src ="img/hob2.png"  class="img-fluid  iconz2"  />      
+               </section>
+               
+              <section class="col-sm-4  mx-auto text-center contact_wrapper">
+                    <img src ="img/mycont.png"  class="img-fluid iconz" style="padding-top:2%;"/>  
+                   <img src ="img/cont2.png" class="img-fluid  iconz2" />
+               </section>
+           </section>
+           
+         </div>
+    </div-->    
+       
+      
+      
+      <script>
+      $(".menu-opener").click(function(){
+  $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+});
 
-        <ul class="our-gallery portfolio-items col-3 " id="gallery">
-             	
-	
-        <li class="portfolio-item joomla bootstrap">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/item1.jpg" title="My Gallery"><img src="images/portfolio/thumb/item1.jpg" alt="example-1" class="img-responsive"></a></div>
-        </li>
-         <li class="portfolio-item bootstrap ">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/item2.jpg" title="My Gallery"><img src="images/portfolio/thumb/item2.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-            <li class="portfolio-item bootstrap ">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/item3.jpg" title="My Gallery"><img src="images/portfolio/thumb/item3.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-        <li class="portfolio-item bootstrap ">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/item4.jpg" title="My Gallery"><img src="images/portfolio/thumb/item4.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-            <li class="portfolio-item bootstrap ">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/item5.jpg" title="My Gallery"><img src="images/portfolio/thumb/item5.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-            <li class="portfolio-item bootstrap ">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/item6.jpg" title="My Gallery"><img src="images/portfolio/thumb/item6.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-              <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph1.jpg" title="My Gallery"><img src="images/portfolio/thumb/graph1.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-            <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph2.png" title="My Gallery"><img src="images/portfolio/thumb/graph2.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-             <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph3.png" title="My Gallery"><img src="images/portfolio/thumb/graph3.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-             <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph4.png" title="My Gallery"><img src="images/portfolio/thumb/graph4.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-             <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph5.png" title="My Gallery"><img src="images/portfolio/thumb/graph5.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-             <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph6.jpg" title="My Gallery"><img src="images/portfolio/thumb/graph6.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-             <li class="portfolio-item html">
-                <div class="item-inner">
-                    <a href="images/portfolio/full/graph7.png" title="My Gallery"><img src="images/portfolio/thumb/graph7.jpg" alt="example-1" class="img-responsive html"></a></div>
-        </li>
-              </ul></section>
-          </div><!--end-->
-        </div>
-    </div>
-    <!-- /Portfolio -->
+      </script>
 
-    <!--Hobbies -->
-    <div id="hobbies" class="hobbies">
-    <div  class="container-fluid" style=" background-color:black; " >
-
-    <div class="row myself" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
-<img src ="img/hob.png" class="img-responsive center-block "  />
-</div>
-
-<div class="row" >
-   
-    <section class="col-sm-6 " >
-     <img src="hobbies/drums.png" class="img-responsive center-block"  data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="1100" >
-    </section>
-        
-         <section class="col-sm-6 "  >
-     <img src="hobbies/football.png" class="img-responsive center-block"  data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="1000" >
-    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
-</div>
-    
-    
-    <div class="row  " style=" margin-top:5%">
-   
-    <section class="col-sm-6 ">
-     <img src="hobbies/music.png" class="img-responsive" style="float:right;"  data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="1200">
-    </section>
-    
-     <section class="col-sm-6 " >
-     <img src="hobbies/travel.png" class="img-responsive " style="padding-bottom:40px;"  data-aos="zoom-in"
-     data-aos-easing="linear"
-     data-aos-duration="1300">
-    </section>
-    
-</div>
-	  
-        </div>
-    </div>
-    <!-- /Hobbies -->
-    
-    <!--Contact --><div id="footerwrap" >
-    <div id="contact" class="contact-us">
-    <div  class="container-fluid" >
-
-    <div class="row " data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900" style="padding-top:3%;">
-<img src ="img/cont.png" class="img-responsive center-block  " />
-</div>
-	  
-<div class="row"  style="padding-top:7%;">	
-<div class="col-sm-4" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700">
-  <section class ="addre2" >
-    <p>
-    <img src="img/105.png" class="img-responsive center-block">
-    </p>  
-    
-    <p>
-	333/1 L.N Reddy Colony <br>
-1st Main, Ramaswamy Palya,<br>
-Bangalore 560037,<br>
-     India<br>
-</p></section>
-</div>
-
-<div class="col-sm-4 " data-aos="fade-up"data-aos-easing="linear" data-aos-duration="900" >
-      <section class ="addre2">
-    <p >
-    <img src="img/104.png" class="img-responsive center-block">
-    </p>
-    <p>
-+919 7 4282 5870
-    </p></section>
-</div>    
-    
-
-<div class="col-sm-4 " data-aos="fade-up"data-aos-easing="linear" data-aos-duration="1100" ><!--Address-->
-    <section class ="addre2">
-	<p >
-    <img src="img/106.png" class="img-responsive center-block">
-    </p> 
-		<p><a  href= "mailto:atigborgracious@gmail.com">atigborgracious@gmail.com</a></p>
-    </section >
-   
-</div><!--Address-->  
-
-
-</div>
-</div></div>
-    </div>
-    <!--/Contact-->
-
-    
-
-    <!-- Footer -->
-    <footer>
-      <div id="copyright">
-	<div class="container">
-        <section class="row">
-		<p style="text-align: center;">© 2017 GraciousJoshua All Rights Reserved.</p>
-            </section>
-	</div>
-</div>  
-    </footer>
-    <!-- /Footer -->
-		
-    <!-- JavaScript -->
-     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <!-- js for gallery -->	
-<script src="js/cobox.js" type="text/javascript"></script>
-<!-- /js for gallery -->
-    <!--welcome animation-->
-    <script type="text/javascript"> 
-      $(function(){
-          setTimeout(function (){
-              $('.text-animation').removeClass('hidden');},500);
-          })
-      ());
-    </script> <!--welcome animation-->
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-   <!--script type="text/javascript" src="js/jquery-2.1.4.min.js"></script-->
-     <!--script src="js/jquery-1.10.2.js"></script-->
-    <script>
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
-
-    <!-- js -->
-    
-
-<!-- //js -->
-    <!---portfolio-->
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <!---portfolio--->
-     <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"></script>  
-        
-        <script src='js/aos.js'></script>
-<script src="js/lazyload.js"></script>
-</body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+         
+      <script src='js/aos.js'></script>
+        <script src="js/lazyload.js"></script>
+ </body>
 </html>
