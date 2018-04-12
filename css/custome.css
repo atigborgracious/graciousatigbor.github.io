@@ -208,6 +208,23 @@ font-family: 'Open Sans', sans-serif; ;
     letter-spacing: 0.15em;
 }
 
+.port_details h3 {
+    color: #353536;
+    letter-spacing: 2px;
+}
+
+.port_details h2 {
+    font-weight: 800;
+    color: #353536;
+    letter-spacing: 3px;
+}
+
+.port_details p{
+    font-size : 1.2em;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
 .break_text{
     top:20;
     left : 20%;
