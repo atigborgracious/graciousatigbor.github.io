@@ -38,7 +38,50 @@ font-family: 'Open Sans', sans-serif; ;
         display: block;
     }
 
+.sff_about  {
+    background-color: #fff;
+    color: #000;
+	opacity : .7;
+}
+.sff_education  {
+    background-color: #fff;
+    color: #000;
+	opacity : .7;
+}
 
+.sff_skills  {
+   background-color: #fff;
+    color: #000;
+	opacity : .7;
+}
+
+.sff_port  {
+    background-color: #fff;
+    color: #000;
+	opacity : .9;
+}
+
+.sff_client  {
+    background-color: #fff;
+    color: #000;
+	opacity : .9;
+}
+
+.sff_hobby  {
+    background-color: #fff;
+    color: #000;
+	opacity : .7;
+}
+
+.sff_contact  {
+  background-color: #fff;
+    color: #000;
+	opacity : .9;
+}
+
+.portlink a {
+    color: #000 !important;
+}
 #sf {
     display: block;
     margin-top: 0 !important;
