@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
 html,body {
   height:100%;
   margin:0;
@@ -315,28 +317,39 @@ font-family: 'Open Sans', sans-serif;
 #sff p {
     letter-spacing: 0.15em;
 }
-
-.break_text{
-    top:20;
-    left : 20%;
-    word-wrap: break-word;
-    text-align:center;
-    color: #fff;
-    
-     font-family: 'Open Sans', sans-serif; 
-    font-size: 4rem;
-    font-weight: bolder;
-    font-style: italic;
-}
- 
 .mydiv {
-   margin-top: 10%;
+    margin-top: 73%;
     display: block;
-    width: 10px;
      text-align:center;
     height: auto;
-    margin-left: 50%;
+    margin-left: 7%;
+    position: relative;
+     font-family: 'Montserrat', sans-serif!important; 
+    letter-spacing: 0.2rem;
 }
+.break_text{
+    /*
+    left : 20%;
+    word-wrap: break-word;
+    font-style: italic;
+    text-align:center;
+    
+    */
+    
+    color: #fff;
+    font-family: 'Montserrat', sans-serif!important; 
+    font-size: 4rem;
+    font-weight: bold;
+     top: 50%;
+  
+   -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+    
+
+ 
+
  .mydiv2 {
         display: none;
     }
@@ -592,13 +605,13 @@ a {
 }
 
 .menu {
-  background: #0ea7e4 /*17b7c1*/;
+  background: #000 /*17b7c1*/;
   color: transparent;
   height: 64px;
   position: absolute;
   top: 2%;
   left: 1%;
-   
+   opacity: .7;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -641,11 +654,13 @@ a {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 100;
   height: 100%;
   text-align: center;
   text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
 }
 .menu-link li {
   margin: auto;
