@@ -317,7 +317,7 @@ margin: 0 auto;
 
 .about-section {
 background: #4ca7b8; 
-padding: 10px 0 100px 0;    
+padding: 20px 0 100px 0;    
 }
 
 
@@ -363,6 +363,11 @@ padding: 10px 0 100px 0;
      line-height: 1.8em;
 } 
 
+
+.about-section img {
+    border-radius: 10px;
+    margin-top: 50px;
+}
     
 
 
@@ -416,7 +421,13 @@ padding: 10px 5px 100px 5px;
     margin:3px auto 0px auto;    
    font-size: 14px;
      line-height: 1.8em;
-}     
+} 
+    
+    .about-section img {
+    border-radius: 10px;
+    margin-top: 25px;
+}
+ 
     
 
 }
@@ -575,6 +586,50 @@ padding: 50px 0 50px 0;
     
 }
 
+
+.recent-projects h2 {
+  color:#ffff;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 2px;
+   text-align:left;
+   font-size: 45px;
+    margin-top: 80px;
+     margin-bottom:0px;     
+}
+
+.recent-projects h5 {
+  color:#ffff;
+   font-family: 'Mont-Book', sans-serif;          
+   text-align:left;
+   font-size:16px;
+    margin-top:10px;
+     margin-bottom:0px;     
+}
+
+.recent-projects h6 {
+    padding-top: 80px;  
+}
+
+.recent-projects h6 a{
+  color:#ffff;
+   font-family: 'Mont-Book', sans-serif;          
+   text-align:left;
+   font-size: 14px;
+     padding-bottom:20px; 
+   
+}
+
+
+.recent-projects-left {
+   border-bottom: #fff 1px solid;  
+}
+
+.recent-projects  img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
 .mark-img img {
     margin-top :100px;
 }
@@ -617,26 +672,25 @@ padding: 50px 0 50px 0;
 
 .contact{
 background:#ffc0cb;
-padding: 60px 0 70px 0; 
-color:#ffff;    
+padding: 60px 0 70px 0;     
 }
 
 
 .contact h1 {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Bold', sans-serif;          
     letter-spacing: 5px;
    text-align:center;
    font-size: 60px;
     margin-top: 50px;
      margin-bottom: 10px;
-       
+      opacity: 0.8; 
  
 }
 
 
 .contact h6 {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Book', sans-serif;          
     letter-spacing: 1px;
    text-align:center;
@@ -647,17 +701,18 @@ color:#ffff;
 }
 
 .contact h5 {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Bold', sans-serif;          
     letter-spacing: 2px;
    text-align:center;
    font-size: 20px;
      margin-top:5px;
-     margin-bottom:5px;  
+     margin-bottom:5px; 
+     opacity: 0.8; 
 }
 
 .contact p {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Book', sans-serif;          
     letter-spacing: 2px;
    text-align:center;
@@ -673,34 +728,36 @@ color:#ffff;
 .contact{
 background:#ffc0cb;
 padding: 40px 0 70px 0; 
-color:#ffff;    
+color:#0000;    
 }
     
     
 .contact h1 {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Black', sans-serif;          
     letter-spacing: 3px;
    text-align:left;
    font-size: 45px;
     margin-top: 50px;
      margin-bottom: 20px;
+     opacity: 0.8; 
        
 }
 
 .contact h5 {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Bold', sans-serif;          
     letter-spacing: 2px;
    text-align:left;
    font-size: 18px;
      margin-top:5px;
      margin-bottom:5px;  
+     opacity: 0.8; 
 }    
     
     
 .contact h6 {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Book', sans-serif;          
     letter-spacing: 1px;
    text-align:left;
@@ -711,7 +768,7 @@ color:#ffff;
 }    
     
  .contact p {
-  color:#ffff;
+  color:#000;
    font-family: 'Mont-Book', sans-serif;          
     letter-spacing: 2px;
    text-align:left;
@@ -767,4 +824,179 @@ svg {
    100%{
      fill:#ffc0cb;
    }
+}
+
+
+/********Alphazon Technologies*******/
+
+.alphazon-page {
+        padding-top: 120px;
+}
+
+.alphazon-page h1 {
+    font-family: 'Mont-Black', sans-serif;          
+    letter-spacing: 5px;
+   text-align:left;
+    font-size:70px; 
+    margin-bottom:50px;
+    color:#000;
+    opacity: 0.7;
+}
+
+.alphazon-page h2 {
+    font-family: 'Mont-Black', sans-serif;          
+    letter-spacing: 3px;
+   text-align:left;
+    font-size:60px; 
+    margin-top: 30px;
+    margin-bottom:20px;
+    color:#000;
+    opacity: 0.7;
+}
+
+
+
+
+.alphazon-page h3 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing:1px;
+   text-align:left;
+    font-size:22px; 
+    color:#000;
+    opacity: 0.8;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+
+.alphazon-page h5 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing:3px;
+   text-align:left;
+    font-size:18px; 
+    color:#000;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    margin-top: 1px;
+}
+
+
+.alphazon-page h6 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing:1px;
+   text-align:left;
+    font-size:16px; 
+    color:#000;
+    opacity: 1;
+    margin-top: 15px;
+}
+
+.alphazon-page p {
+    font-family: 'Mont-Book', sans-serif;          
+    letter-spacing:0px;
+   text-align:left;
+    font-size:14px; 
+    color:#000;
+    opacity: 0.9;
+}
+
+
+.alphazon-page p a{
+    font-family: 'Mont-Book', sans-serif;          
+    letter-spacing:0px;
+   text-align:left;
+    font-size:14px; 
+    color:#000;
+    opacity:1;
+}
+
+.back-arrow img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.forward-arrow img {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.alpha-inner {
+    background:#F2F2F2;
+    padding:30px;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+
+@media (max-width: 720px) {
+    
+    .alphazon-page {
+        padding-top: 100px;
+}
+    
+    .alphazon-page h1 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 3px;
+   text-align:left;
+    font-size:45px; 
+    margin-bottom:30px;
+    color:#000;
+    opacity: 0.7;
+}
+
+.alphazon-page h2 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 2px;
+   text-align:left;
+    font-size:35px; 
+    margin-top: 30px;
+    margin-bottom:20px;
+    color:#000;
+    opacity: 0.7;
+}
+    
+.alphazon-page h3 {
+    font-family: 'Mont-Book', sans-serif;          
+    letter-spacing:1px;
+   text-align:left;
+    font-size:20px; 
+    color:#000;
+    opacity: 0.8;
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+    
+.alphazon-page h5 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing:3px;
+   text-align:left;
+    font-size:18px; 
+    color:#000;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}    
+    
+}
+
+@media (max-width: 320px) {
+      .alphazon-page h1 {
+    font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 3px;
+   text-align:left;
+    font-size:35px; 
+    margin-bottom:30px;
+    color:#000;
+    opacity: 0.7;
+}
+ 
 }
